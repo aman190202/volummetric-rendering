@@ -16,4 +16,3 @@ img = px_colors.reshape(H, W, 3).cpu().numpy()
 plt.figure(dpi=200)
 plt.imshow(img)
 plt.savefig("output.png")
-
